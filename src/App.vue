@@ -6,4 +6,13 @@ import Clock from "./components/ClockScreen.vue";
   <Clock />
 </template>
 
-<style scoped></style>
+<style scoped>
+html,
+body {
+  height: 100%;
+  margin: unset;
+}
+#app {
+  height: 100%;
+}
+</style>

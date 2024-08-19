@@ -71,5 +71,35 @@ export default {
 </script>
 
 <style scoped>
-/* スタイルはここに追加 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #262626;
+}
+
+.date,
+.time {
+  font-weight: bold;
+  color: #00ff01;
+}
+
+.date {
+  font-size: 16px;
+  text-align: right;
+}
+.time {
+  font-size: 70px;
+}
+.seconds {
+  font-size: 30px;
+}
 </style>
